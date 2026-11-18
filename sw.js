@@ -1,5 +1,5 @@
 // Keeps the markup tool available offline. Online: always fetch the newest files. Offline: use the saved copy.
-const CACHE = 'damper-markup-v1';
+const CACHE = 'damper-markup-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'pdf-lib.min.js', 'pdfjs/pdf.min.js', 'pdfjs/pdf.worker.min.js'];
 
 self.addEventListener('install', (e) => {
